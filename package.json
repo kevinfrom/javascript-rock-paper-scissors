@@ -1,0 +1,13 @@
+{
+  "name": "javascript-rock-paper-scrissors",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsup src/index.ts --format cjs --minify"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsup": "^7.2.0"
+  }
+}
